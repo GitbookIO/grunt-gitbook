@@ -10,14 +10,16 @@ module.exports = function(grunt) {
         if (!config.dest || !config.input || !config.title || !config.github) {
             return done(new Error("Need options 'dest', 'input', 'title' and 'github'"));
         }
-        
+
         gitbook.generate.folder(
             config.input,
             config.dest,
             {
                 title: config.title,
                 description: config.description,
-                github: config.github
+                github: config.github,
+                githubHost: config.githubHost,
+                templatePath: config.templatePath
             }
         )
         .then(function() {
