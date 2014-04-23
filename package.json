@@ -18,7 +18,7 @@
     ],
     "license": "Apache 2",
     "dependencies": {
-        "gitbook": "0.3.0"
+        "gitbook": "~0.3.0"
     },
     "scripts": {
         "test": "grunt test"
