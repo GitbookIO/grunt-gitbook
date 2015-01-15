@@ -1,7 +1,7 @@
 # grunt-gitbook
 > Build books using GitBook
 
-:warning: For more simplicity, you can [gitbook.com](https://www.gitbook.com).
+:warning: For more simplicity, you can use [gitbook.com](https://www.gitbook.com).
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
