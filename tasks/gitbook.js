@@ -1,7 +1,5 @@
 module.exports = function(grunt) {
-    var fs = require('fs'),
-            gitbook = require('gitbook'),
-            path = require('path');
+    var gitbook = require('gitbook');
 
     grunt.registerMultiTask('gitbook', 'gitbook builder', function() {
         var config = this.data;
