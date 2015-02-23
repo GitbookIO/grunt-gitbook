@@ -31,7 +31,7 @@ _Run this task with the `grunt gitbook` command._
 Type: `String`
 Default: Directory of input file.
 
-#### dest
+#### output
 Type: `String`
 Default: Directory of output.
 
